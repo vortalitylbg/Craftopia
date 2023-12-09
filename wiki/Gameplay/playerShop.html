@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>Craftopia - Wiki</title>
+	<meta name="description" content="MyServer is a new and awesome Minecraft server. You can join with the IP 'play.myserver.net'.">
+	<meta property="og:title" content="MyServer - Official Website Portal">
+	<meta property="og:site_name" content="MyServer">
+	<meta property="og:description" content="MyServer is a new and awesome Minecraft server. You can join with the IP 'play.myserver.net'.">
+	<meta property="og:image" content="https://bybilly.uk/portal/img/minecraft.jpg">
+	<meta property="og:url" content="https://bybilly.uk/">
+	<meta name="twitter:card" content="summary_large_image">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="../../img/logo.ico"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../../css/wiki_stylesheet.css">
+</head>
+<body>
+    <!-- Créer le menu déroulant avec les onglets -->
+    <div class="dropdown">
+        <div class="logo"><a href="../../index.html"><img src="../../img/logo.png" width="100px" alt=""></a></div>
+        <a href="../wiki.html" class="tab">À propos de Craftopia</a>
+        <a href="Bien_débuter.html" class="tab">Bien débuter</a>
+        <a href="commandes.html" class="tab">Commandes</a>
+        <a href="metiers.html" class="tab">Les métiers</a>
+        <a class="selected">Shop de Joueurs</a>
+        <!-- Ajouter d'autres onglets si nécessaire -->
+    </div>
+
+    <!-- Créer le contenu de la page -->
+    <div class="content">
+        <!-- Changer le titre de la page selon le sujet -->
+        <div class="title"><h2>Shop de Joueurs</h2></div>
+        <h3>1.Création de Votre Propre Magasin</h3>
+        <p>Utilisez des coffres et des panneaux pour créer votre propre magasin avec ChestShop. Voici comment procéder :</p>
+        <p><span class="bold">Placez un Coffre : </span>Posez un coffre pour stocker vos articles à vendre.</p>
+        <p><span class="bold">Placez un Panneau : </span>Au-dessus ou à côté du coffre, placez un panneau.</p>
+        <p><span class="bold">Configurer le Panneau : </span>Laissez la première ligne du panneau vide, dans la deuxième ligne marquez la quantité d'articles à acheter ou à vendre, dans la troisième ligne, si vous voulez vendre l'article, écrivez <span href="#" class="italic">B "prix de l'article à acheter"</span>,si vous voulez acheter l'article, écrivez <span class="italic">S "prix de l'article à vendre"</span>, enfin, si vous voulez vendre l'article à un prix et l'acheter à un autre, écriver <span href="#" class="italic">B "prix de l'article à acheter" : S "prix de l'article à vendre"</span>. Dans la dernière ligne, écrivez le nom de l'article en anglais</p>
+        <p>Par exemple, si je veux vendre 5 unités de diamant à 500$ et les acheter à 50$, mon panneau ressembleras à ceci : </p><img src="../../img/sign.png" width="250px" alt="image du panneau">
+    
+        <h3>2.Explorer les Marchés des Autres Joueurs</h3>
+        <p>PlayerWarps vous permet de créer des points de téléportation vers des endroits spécifiques, y compris les marchés des autres joueurs. Suivez ces étapes pour explorer les magasins de la communauté :</p>
+        <p><span class="bold">Créer un Warp : </span>Utilisez la commande <span class="italic">/pwarp create [Nom du Warp]</span> pour créer un point de téléportation à votre magasin.</p>
+        <p><span class="bold">Téléportation : </span>Les joueurs peuvent maintenant utiliser <span class="italic">/pwarp [Nom du Warp]</span> pour se téléporter directement à votre magasin.</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/firefly.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>

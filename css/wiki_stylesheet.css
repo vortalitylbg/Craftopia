@@ -1,0 +1,143 @@
+body {
+	/*Want to change background image?*/
+	/*Upload a new one to the img folder.*/
+	/*Make sure you name it 'minecraft.jpg'*/
+	background: linear-gradient(rgba(172, 172, 172, 0.5),rgba(172, 172, 172, 0.5)),
+				url("../img/minecraft.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-family: "Open Sans", Helvetica;
+	margin: 0;
+	position: relative;
+}
+
+.logo img {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 23%;
+	width: 100px; /* Change image size for mobile */
+	-webkit-animation-name: logo;
+	        animation-name: logo;
+	-webkit-animation-duration: 5s;
+	        animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	        animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes logo {
+	0% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+	50% {
+		-webkit-transform: scale(1.15);
+		        transform: scale(1.15);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+}
+
+@keyframes logo {
+	0% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+	50% {
+		-webkit-transform: scale(1.15);
+		        transform: scale(1.15);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+}
+
+.dropdown {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Définir le style des onglets du menu */
+.tab {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    transition: ease 0.5s;
+}
+
+/* Changer la couleur des onglets au survol de la souris */
+.tab:hover {
+    background-color: #555;
+    transition: ease 0.5s;
+}
+
+.selected{
+    display: block;
+    color: rgb(182, 182, 182);
+    background-color: #414141;
+    padding: 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+h4{
+    margin-left: 2%;
+    font-size: 16px;
+}
+
+/* Définir le style du contenu de la page */
+.content {
+    margin-left: 200px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Définir le style du titre de la page */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a, p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.bold{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.italic{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+}
+
+h3{
+    margin-left: 2%;
+}
+
+p{
+    margin-left: 3%;
+}
